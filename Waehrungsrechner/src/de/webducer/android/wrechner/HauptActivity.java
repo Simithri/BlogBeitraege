@@ -1,0 +1,13 @@
+package de.webducer.android.wrechner;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class HauptActivity extends Activity {
+    /** Called when the activity is first created. */
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+    }
+}

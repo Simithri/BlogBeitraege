@@ -1,12 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
-<TextView  
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/hello"
-    />
+    <EditText
+    	android:layout_height="wrap_content"
+    	android:id="@+id/txtBetrag"
+    	android:layout_width="fill_parent"
+    	android:hint="@string/betrag_eingeben"
+    	android:inputType="number">
+    </EditText>
+    <LinearLayout
+    	android:orientation="horizontal"
+    	android:weightSum="3"
+    	android:layout_height="wrap_content"
+    	android:layout_width="fill_parent">
+	    <Spinner
+	    	android:layout_height="wrap_content"
+	    	android:layout_width="0dp"
+	    	android:layout_weight="1"
+	    	android:id="@+id/selWaehrungStart">
+	    </Spinner>
+	    <Spinner
+	    	android:layout_height="wrap_content"
+	    	android:layout_width="0dp"
+	    	android:layout_weight="1"
+	    	android:id="@+id/selWaehrungEnde">
+	    </Spinner>
+	    <Button
+	    	android:text="@string/cmd_berechnen"
+	    	android:id="@+id/cmdBerechnen"
+	    	android:layout_width="0dp"
+	    	android:layout_weight="1"
+	    	android:layout_height="wrap_content">
+	    </Button>
+	</LinearLayout>
+	<ScrollView
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent">
+	    <TextView
+	    	android:id="@+id/txtErgebnisse"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent"
+	    	android:gravity="top">
+	    </TextView>
+	</ScrollView>
 </LinearLayout>

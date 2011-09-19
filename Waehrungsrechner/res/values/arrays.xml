@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="waehrung">
+        <item>EUR - Euro</item>
+        <item>USD - Amerikanische Dollar</item>
+        <item>AUD - Australische Dollar</item>
+        <item>RUB - Russische Rubel</item>
+        <item>CUD - Kanadische Dollar</item>
+        <item>GBP - Englische Pfund</item>
+    </string-array>
+    <string-array name="waehrung_kurs">
+        <item>1</item>
+        <item>1.3795</item>
+        <item>1.3314</item>
+        <item>42.1941</item>
+        <item>1.3495</item>
+        <item>0.8738</item>
+    </string-array>
+    
+</resources>

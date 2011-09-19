@@ -21,13 +21,15 @@
 	    	android:layout_height="wrap_content"
 	    	android:layout_width="0dp"
 	    	android:layout_weight="1"
-	    	android:id="@+id/selWaehrungStart">
+	    	android:id="@+id/selWaehrungStart"
+	    	android:entries="@array/waehrung">
 	    </Spinner>
 	    <Spinner
 	    	android:layout_height="wrap_content"
 	    	android:layout_width="0dp"
 	    	android:layout_weight="1"
-	    	android:id="@+id/selWaehrungEnde">
+	    	android:id="@+id/selWaehrungEnde"
+	    	android:entries="@array/waehrung">
 	    </Spinner>
 	    <Button
 	    	android:text="@string/cmd_berechnen"

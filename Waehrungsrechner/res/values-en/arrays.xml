@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="waehrung">
+        <item>EUR - Euro</item>
+        <item>USD - American Dollar</item>
+        <item>AUD - Australian Dollar</item>
+        <item>RUB - Russian Rubel</item>
+        <item>CUD - Canadian Dollar</item>
+        <item>GBP - Great Britain Pound</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/opt_loeschen" android:titleCondensed="@string/opt_loeschen_kurz" android:id="@+id/optLoeschen" android:icon="@drawable/opt_clear"></item>
+    <item android:title="@string/opt_schliessen" android:titleCondensed="@string/opt_schliessen_kurz" android:id="@+id/optSchliessen" android:icon="@drawable/opt_close"></item>
+    
+</menu>

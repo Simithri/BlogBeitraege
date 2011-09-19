@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Globale Strings -->
+	<string name="app_name">Currency Calculator</string>
+	
+	<!-- View Texte -->
+    <string name="betrag_eingeben">Please type the value to calculate!</string>
+    <string name="cmd_berechnen">Calculate</string>
+    
+    <!-- Menü -->
+    <string name="opt_loeschen">Clear Result List</string>
+    <string name="opt_loeschen_kurz">Clear</string>
+    <string name="opt_schliessen">Close App</string>
+    <string name="opt_schliessen_kurz">Close</string>
+    
+    <!-- Fehlertexte -->
+    <string name="err_betarg_format">The value has wrong format!</string>
+    <string name="err_kurs_format">The currency value has wrong format!</string>
+</resources>

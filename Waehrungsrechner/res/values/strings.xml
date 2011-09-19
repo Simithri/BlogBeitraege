@@ -3,4 +3,6 @@
     <string name="betrag_eingeben">Bitte den Betrag hier eingeben!</string>
     <string name="app_name">Währungsrechner</string>
     <string name="cmd_berechnen">Berechnen</string>
+    <string name="err_betarg_format">Der Betrag hat das falsche Format!</string>
+    <string name="err_kurs_format">Der Kurs liegt im falschen Format vor!</string>
 </resources>

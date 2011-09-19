@@ -10,7 +10,7 @@
     	android:id="@+id/txtBetrag"
     	android:layout_width="fill_parent"
     	android:hint="@string/betrag_eingeben"
-    	android:inputType="number">
+    	android:inputType="numberDecimal">
     </EditText>
     <LinearLayout
     	android:orientation="horizontal"
